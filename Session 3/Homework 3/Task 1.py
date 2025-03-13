@@ -13,5 +13,5 @@
 # 1
 
 num = int(input("Please enter the number: "))
-for num in range(10, 0, -1):
+for num in range(16, 0, -1):
     print(num)
