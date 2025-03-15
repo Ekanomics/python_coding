@@ -6,5 +6,6 @@
 students = {"Alice": 45, "Bob": 78, "Charlie": 52, "David": 33}
 for name, score in students.items():
     if score > 50:
-        print(f"{name}: {score}")
+        print(f"{name}: {score}", end=", ")
+print(end='\n')
 

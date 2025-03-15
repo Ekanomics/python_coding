@@ -12,9 +12,9 @@ for i in list_of_num:
     if i not in Output:
         Output.append(i)
 
-output_str = ", ".join(Output)
+output_str = ", ".join(Output)          #.join  -  превращает список, кортеж and etc. в одну строку
 
-print("Output: ", output_str)
+print("Output: ", Output)
 
 
 
