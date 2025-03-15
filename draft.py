@@ -30,10 +30,31 @@
 
 
 #           5) map function
-strings = ["my", "world", "apple", "pear"]
+# strings = ["my", "world", "apple", "pear"]
 
-length = map(len, strings)
-print(list(length))
+# length = map(len, strings)
+# print(list(length))
 
-length = map(lambda x: x + "s", strings)
-print(list(length))
+# length = map(lambda x: x + "s", strings)
+# print(list(length))
+
+
+
+
+#                   Functions
+
+
+# i = round(1.7356)
+# print(i)
+
+
+# variables can start only with the latin letter
+
+
+# \n - make a new line
+
+
+while True:
+    for i in ["/","- ","|","\\","|"]:
+        print (" %s\r ") % i
+        
