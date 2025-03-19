@@ -169,12 +169,12 @@
 # Take an input of word and character and return an index of this character
 # if no char is available return "No such character"
 
-def func(word, char):
-    if char in word:
-        return word.index(char)
-    else:
-        return "No such character"
+# def func(word, char):
+#     if char in word:
+#         return word.index(char)
+#     else:
+#         return "No such character"
 
-print(func('akumosolutions', 'o'))
-print(func('akumosolutions', 'z'))
+# print(func('akumosolutions', 'o'))
+# print(func('akumosolutions', 'z'))
 
