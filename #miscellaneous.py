@@ -563,3 +563,54 @@
 
 
 56.
+# data = set([1, 2, 2, 3, 3, 3, 4, 4, 4, 4])
+# print(len(data))
+
+# Answer: 4
+
+
+57.
+# my_list = [x * x for x in range(5)]
+
+# def fun(lst):
+#     del lst[lst[2]]
+#     return lst
+
+# print(fun(my_list))
+
+
+# Answer: [0, 1, 4, 9]
+# Initial list is [0, 1, 4, 9, 16]
+# lst[2] is 4, so del lst[4] deletes the element at index 4, which is 16
+# Modified list is [0, 1, 4, 9]
+
+
+
+58.
+# a = [1, 2, 3, 4, 5]
+# print(a[3:0:-1])
+
+# Answer: [4, 3, 2]
+
+
+59.
+# nums = []
+# vals = nums[:]
+# vals.append(1)
+
+# print(vals, nums)
+
+# Answer: vals is longer than nums
+
+
+60.
+# data = {'1': '0', '0': '1'}
+
+# for d in data.vals():
+#     print(d, end=' ')
+
+# Answer: AttributeError. Method .vals does not exist. If there could be .values(), then the answer could be 0 1.
+
+
+61.
+
