@@ -451,3 +451,115 @@
 
 
 47.
+# data = [10, 2, 1, 7, 5, 6, 4, 3, 9, 8]
+
+# def find_high_low(nums):
+#     nums.sort()                                                 # Список сортируется по возрастанию с помощью метода sort().
+#     return nums[-1], nums[0]                                    # (nums[-1]) — это наибольшее число, (nums[0]) — это наименьшее число.
+
+# high, low = find_high_low(data)                       # Функция find_high_low вызывается с аргументом data, Результат (кортеж из двух чисел) распаковывается в var high и low.
+
+# print(
+#     ('The highest number is {} ' +
+#     'and the lowest number is {}').format(high, low)
+# )
+
+
+
+48.
+# my_list = ['Mary', 'had', 'a', 'little', 'lamb']
+
+# def my_list(my_list):
+#     del my_list[3]
+#     my_list[3] = 'ram'
+
+# print(my_list(my_list))
+
+# Answer: Error, TypeError
+# Beacuse the name of the list is the same as the name of the function
+# And 'function' object does not support item deletion
+
+
+
+49.
+# data = ['Peter', 'Mary', 'Paul']
+# print(data[int(-1 / 2)])
+
+# Answer: Peter
+
+
+
+50.
+# data = (1, 2, 3, 4)
+# data = data[-2:-1]                    # Срез [-2:-1] извлекает элементы от -2 (включительно) до -1 (не включая).
+# data = data[-1]
+# print(data)
+
+# Answer: 3
+
+
+
+51.
+# data = {1: 0, 2: 1, 3: 2, 0: 1}
+# x = 0
+
+# for _ in range(len(data)):
+#     x = data[x]
+
+# print(x)
+
+
+# Answer: 0
+
+
+
+52.
+# list = ['Peter', 'Paul', 'Mary']
+
+# def list(data):
+#     del data[1]
+#     data[1] = 'Jane'
+#     return data
+
+# print(list(list))
+
+
+# Answer: Error 
+
+
+
+53.
+# data = {}
+# data['2'] = [1, 2]
+# data['1'] = [3, 4]
+#                                     # После этого словарь выглядит вот так: {'2': [1, 2], '1': [3, 4]}
+# for i in data.keys():
+#     print(data[i][1], end=' ')      # end=' ', означает, что следующий вывод будет на той же строке через пробел.
+#                                     # data['2'][1] возвращает второй элемент списка [1, 2], то есть 2.
+#                                     # data['1'][1] возвращает второй элемент списка [3, 4], то есть 4.
+
+# Answer: 2 4
+
+
+
+54.
+# data1 = (1, 2)
+# data2 = (3, 4)
+# [print(sum(x)) for x in [data1 + data2]]          # == print(sum((1, 2, 3, 4))) - here the sum function calculates the sum of the elements in the tuple
+
+# Answer: 10
+
+
+
+55.
+# vals = [0, 1, 2]
+# vals.insert(0, 1)           # after this operation value becomes = [1, 1, 2]
+# del vals[1]
+
+# print(vals)
+
+# Answer: 4
+
+
+
+56.
