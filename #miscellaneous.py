@@ -613,4 +613,82 @@
 
 
 61.
+# dictionary = {}
+# my_list = ['a', 'b', 'c', 'd']
+
+# for i in range (len(my_list) - 1):
+#     dictionary[my_list[i]] = (my_list[i], )
+
+# for i in sorted(dictionary.keys()):
+#     k = dictionary[i]
+#     print(k[0])
+
+# Answer:
+# a
+# b
+# c 
+
+
+
+62.
+# data = [
+#     [1, 2, 3, 4],
+#     [5, 6, 7, 8],
+#     [9, 10, 11, 12],
+#     [13, 14, 15, 16]
+# ]
+# for i in range(0, 4):
+#     print(data[i].pop(), end=' ')
+
+
+# Answe: 4 8 12 16 
+# pop() removes and return last element in each list 
+
+
+
+63.
+# data = [[0, 1, 2, 3] for i in range(2)]   # становится следующим значением: data = [[0, 1, 2, 3], [0, 1, 2, 3]]
+# print(data[1][0])                         # data [1] обращается к индексу 1, то есть ко второму списку: ...[0, 1, 2, 3], далее data[1][0] - второй ноль обращается к 0 индексу второго списка, т.е к 0
+
+
+# Answer: Error, index error
+
+
+
+64.
+# numbers = [1, 2, 3, 4, 5]
+# nums = numbers[2:]
+# print(nums)
+
+# Answer: [3, 4, 5]
+
+
+65.
+# Display all employees excluding last 5:
+# employees[0:-5]
+# employees[:-5]
+
+
+66.
+# data = [1, 2, 3, 4, 5, 6]
+
+# for i in range(1, 6):                   # Этот цикл перебирает значения i от 1 до 5 включительно.
+#     data[i - 1] = data[i]
+
+# for i in range(0, 6):
+#     print(data[i], end=' ')
+
+# Answer: 2 3 4 5 6 6 
+
+
+67.
+# x = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# x[::2] = 10, 20, 30, 40, 50, 60
+# print(x)
+
+# Answer: ValueError
+# Here we're trying to assign sequence of size 6(10, 20..60) to extended slice of 5
+
+
+68.
 
