@@ -691,4 +691,109 @@
 
 
 68.
+...
+
+
+69.
+# data = 'Hello@Peter!!'
+# print(data.lower())
+
+# Answer: hello@peter!!
+
+
+70.
+# data = [1, 5, 10, 19, 55, 30, 55, 99]
+# data.pop(5)                               # removes element at index 5
+# data.remove(19)                           # removes value
+# data.remove(55)
+# data.remove(55)
+
+# print(data)
+
+# Answer: [1, 5, 10, 99]
+
+
+
+71.
+# data1 = 'a', 'b'              # Tuple created
+# data2 = ('a', 'b')            # Also Tuple created
+# print(data1 == data2)
+
+# Answer: True
+
+
+
+72.
+# l1 = [1, 2, 3]
+
+# for v in range(len(l1)):
+#     l1.insert(1, l1[v])
+
+# print(l1)
+
+# Answer: [1, 1, 1, 1, 2, 3]
+
+
+
+73.
+# t = (('A', 1), ('B', 2), ('C', 3))
+# d = dict(t)
+# print(d)
+
+# Output: {'A': 1, 'B': 2, 'C': 3}
+
+
+74.
+# my_list = [0 for i in range(1, 3)]
+# print(my_list)
+
+# Answer: 2 elements
+
+
+75.
+# data = {'z': 23, 'x': 7, 'y': 42}
+
+# for _ in sorted(data):                # sorting the keys of the dict alphabetically
+#     print(data[_], end=' ')
+
+# ANswer: 7 42 23
+
+
+76.
+# x = {(1, 2): 1, (2, 3): 2}
+# print(x[1, 2])                        # Here looking for the value stored for the key '(1, 2)' in the dict x
+
+# Answer: 1
+
+
+77.
+# nums = [1, 2, 3]
+# vals = nums
+# del vals[:]           # Deletes all elements from the list that both vals and nums refer. After this operation both vals and nums are empty lists
+
+# print(vals)
+# print(nums)
+
+
+# Answer: nums and vals have the same length
+
+
+
+78.
+# data = {}
+# data[1] = 1
+# data['1'] = 2
+# data[1.0] = 4             # The float 1.0 is considered equal to the integer 1, so it updates the value for the key 1 to 4. Now data becomes: {1: 4, '1': 2}
+
+# res = 0
+# for d in data:
+#     res += data[d]
+# print(res)
+
+# Answer: 6
+
+
+
+
+
 
