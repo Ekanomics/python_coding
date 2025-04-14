@@ -393,3 +393,159 @@
 
 
 # Question #6
+# -----
+
+
+
+
+# a = [1, 2, 3]
+# a.append([4, 5])
+# print(len(a))
+
+
+
+# s = {1, 2, 3, 45}
+# print(len(s))
+
+
+# my_dict = {"a": 1, "b": 2}
+# print(my_dict.get("c"))
+# print(my_dict)
+
+# import math
+# print(math.sqrt(16))
+
+
+# x = 1
+# y = 2
+# z = 3
+# print(x, y, z, end='\n')
+# print(5//2)
+
+
+# secret_number = 4
+# guess = int(input("Guess a number: "))
+# while guess != secret_number:
+#     guess = int(input("Guess a number: "))
+# else:
+#     print("Congrats, you found it")
+
+
+
+# for i in range(12):
+#     if i == 2:
+#         continue
+#     print("i is: ", i)
+
+
+# def input_number(num = 10):
+#     return int(input("Enter the number: ")) * num
+
+# input_number()
+# # print(input1)
+
+
+
+
+# def myfunc():
+#         print(num + 1, end='')
+ 
+# num = 5
+# myfunc()
+# print(num+13)
+
+
+
+# list1 = [1, 2, 3]
+# list2 = list1[-3:-1]
+# print(list1)
+# print(list2)
+# In the end, list1 = [1, 2, 3] and list = [1. 2].
+# expression list1[-3:-1] means: start with the third element from the back (inclusive), which is 1. and take all elements until the last element (exclusive!)
+# не включает последний элемент -1
+
+
+# a = 0
+# while a <= 5:
+#         a += 2
+#         print('@')
+
+# @
+# @
+# @
+
+
+
+# def myfun(x):
+#         if x == 0:
+#                 return 1
+#         return x + myfun(x-1)
+  
+# print(myfun(5))
+
+# # This is a classic recursive function. To find the result, I'll trace through the execution:
+# myfun(5) is called
+# Since 5 ≠ 0, it returns 5 + myfun(4)
+# But we need to calculate myfun(4) first
+# myfun(4) is called
+# Since 4 ≠ 0, it returns 4 + myfun(3)
+# But we need to calculate myfun(3) first
+# myfun(3) is called
+# Since 3 ≠ 0, it returns 3 + myfun(2)
+# But we need to calculate myfun(2) first
+# myfun(2) is called
+# Since 2 ≠ 0, it returns 2 + myfun(1)
+# But we need to calculate myfun(1) first
+# myfun(1) is called
+# Since 1 ≠ 0, it returns 1 + myfun(0)
+# But we need to calculate myfun(0) first
+# myfun(0) is called
+# Since x == 0, it returns 1 (base case reached)
+# Now we can go back up:
+# myfun(1) = 1 + myfun(0) = 1 + 1 = 2
+# myfun(2) = 2 + myfun(1) = 2 + 2 = 4
+# myfun(3) = 3 + myfun(2) = 3 + 4 = 7
+# myfun(4) = 4 + myfun(3) = 4 + 7 = 11
+# myfun(5) = 5 + myfun(4) = 5 + 11 = 16
+
+# Therefore, print(myfun(5)) outputs 16.
+
+
+
+
+# x = [
+#     'a',
+#     'b',
+#     {
+#         'one': 1,
+#         'two':
+#         {
+#             'x' : 10,
+#             'y' : 20,
+#             'z' : 30
+#         },
+#         'three': 3
+#     },
+#     'c',
+#     'd'
+# ]
+# print(30 in x[2])
+
+# False
+
+
+
+
+# tup_a = (0, 1, 2)
+# tup_b = (2, 3, 4)
+# list_c = []
+# for el in tup_a:
+#         if el not in tup_b:
+#                 list_c.append(el)
+# print(list_c)
+
+# [0, 1]
+
+
+
+print(1 | 0 ^ 1 & ~0)
