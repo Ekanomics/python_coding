@@ -1,693 +1,825 @@
-# from datetime import datetime
+# # from datetime import datetime
 
-# def show_date() -> None:
-#     print('This is the current time: ')
-#     print(datetime.now())
+# # def show_date() -> None:
+# #     print('This is the current time: ')
+# #     print(datetime.now())
 
-# show_date()
+# # show_date()
 
 
 
 
-# def greet(name):
-#     print(f'Hello, {name}!')
+# # def greet(name):
+# #     print(f'Hello, {name}!')
 
-# greet('Askar')
-# greet('Amy')
+# # greet('Askar')
+# # greet('Amy')
 
 
 
-# def add(a, b):
-#     return a + b
+# # def add(a, b):
+# #     return a + b
 
-# print(add(10, 13))
+# # print(add(10, 13))
 
 
 
 
-# class car:
-#     def __init__(self, brand, power):
-#         self.brand = brand
-#         self.horsepower = power
+# # class car:
+# #     def __init__(self, brand, power):
+# #         self.brand = brand
+# #         self.horsepower = power
 
-#     def drive(self):
-#         print(f'{self.brand} is driving')
+# #     def drive(self):
+# #         print(f'{self.brand} is driving')
 
-#     def get_info(self):
-#         print(f'{self.brand} with {self.horsepower} horsepower')
+# #     def get_info(self):
+# #         print(f'{self.brand} with {self.horsepower} horsepower')
 
-# Toyota: car = car('Toyota', 250)
-# Toyota.drive()
-# Toyota.get_info()
+# # Toyota: car = car('Toyota', 250)
+# # Toyota.drive()
+# # Toyota.get_info()
 
 
-# bmw: car = car('BMW', 300)
-# bmw.drive()
-# bmw.get_info()
+# # bmw: car = car('BMW', 300)
+# # bmw.drive()
+# # bmw.get_info()
 
 
 
 
 
-# x = 9
-# y = 12
-# result = x // 2 * 2 / 2 + y % 2 ** 3
-# print(result)
+# # x = 9
+# # y = 12
+# # result = x // 2 * 2 / 2 + y % 2 ** 3
+# # print(result)
 
 
 
-# x = 1
-# x = x == x
-# Answer: True
+# # x = 1
+# # x = x == x
+# # Answer: True
 
 
-# a = 10
-# b = 20
-# c = a>b
-# print(not(c))
-# Answer: True
+# # a = 10
+# # b = 20
+# # c = a>b
+# # print(not(c))
+# # Answer: True
 
 
 
-# x = 1 + 1 // 2 + 1 / 2 + 2
-# print(x)
-# A: 3.5
+# # x = 1 + 1 // 2 + 1 / 2 + 2
+# # print(x)
+# # A: 3.5
 
 
-# z = 3
-# y = 7
-# x = y == z and y > z or z > y and z != y
-# print(x)
-# A: False
+# # z = 3
+# # y = 7
+# # x = y == z and y > z or z > y and z != y
+# # print(x)
+# # A: False
 
 
 
-# print(1/1)
+# # print(1/1)
 
 
 
-# list1 = [3, 7, 23, 42]
-# list2 = [3, 7, 23, 42]
-# print(list1 is list2)
-# print(list1 == list2)
-# # A: False, True
+# # list1 = [3, 7, 23, 42]
+# # list2 = [3, 7, 23, 42]
+# # print(list1 is list2)
+# # print(list1 == list2)
+# # # A: False, True
 
-# print(id(list1))
-# print(id(list2))
+# # print(id(list1))
+# # print(id(list2))
 
 
-# print(3*'abc'+'xyz')
+# # print(3*'abc'+'xyz')
 
 
 
-# nums = [3, 7, 23, 42]
-# alphas = ['p', 'p', 'm', 'j']
+# # nums = [3, 7, 23, 42]
+# # alphas = ['p', 'p', 'm', 'j']
 
-# print(nums is alphas)
-# print(nums == alphas)
+# # print(nums is alphas)
+# # print(nums == alphas)
 
-# nums = alphas
+# # nums = alphas
 
-# print(nums is alphas)
-# print(nums == alphas)
+# # print(nums is alphas)
+# # print(nums == alphas)
 
-# print(nums)
-# print(alphas)
+# # print(nums)
+# # print(alphas)
 
-# A:False, FAlse, True, True, ['p', 'p', 'm', 'j']
+# # A:False, FAlse, True, True, ['p', 'p', 'm', 'j']
 
 
 
-# x = 'Peter'
-# y = 'Peter'
-# res = x is y
-# print(res)
+# # x = 'Peter'
+# # y = 'Peter'
+# # res = x is y
+# # print(res)
 
-# y = ''.join(['P', 'e', 't', 'e', 'r'])
-# print(y)
+# # y = ''.join(['P', 'e', 't', 'e', 'r'])
+# # print(y)
 
 
 
-# x, y, z = 3, 2, 1
-# z, y, x = x, y, z
-# print(x, y, z)
+# # x, y, z = 3, 2, 1
+# # z, y, x = x, y, z
+# # print(x, y, z)
 
 
 
-# x = 1
-# print(++++x)
+# # x = 1
+# # print(++++x)
 
 
 
-# x = 23 + 42
-# y = '23' + '42'
-# z = '23' * 7
-# print(type(x))
-# print(type(y))
-# print(type(z))
+# # x = 23 + 42
+# # y = '23' + '42'
+# # z = '23' * 7
+# # print(type(x))
+# # print(type(y))
+# # print(type(z))
 
 
 
-# x = 2
-# y = 6
-# x += 2 ** 3
-# x //= y //2 // 3
-# print(x)
+# # x = 2
+# # y = 6
+# # x += 2 ** 3
+# # x //= y //2 // 3
+# # print(x)
 
 
 
-# res = str(bool(1) + float(12) / float(2))
-# print(res)
-# A: str(1 + 6.0) = '7.0'
+# # res = str(bool(1) + float(12) / float(2))
+# # print(res)
+# # A: str(1 + 6.0) = '7.0'
 
 
-# print('Mikeii' > 'Mikey')
+# # print('Mikeii' > 'Mikey')
 
 
-# x = 2 ^ 3
-# print(x)
+# # x = 2 ^ 3
+# # print(x)
 
 
-# // - performs integer division
+# # // - performs integer division
 
 
-# y = 2 + 3 * 5.
-# print(y)
-# A: 17.0
+# # y = 2 + 3 * 5.
+# # print(y)
+# # A: 17.0
 
 
-# equal - '=='
+# # equal - '=='
 
 
 
-# a = 1
-# b = 0
-# a = a ^ b
-# b = a ^ b
-# b = a ^ b
-# print(a, b)
-# 1, 0
+# # a = 1
+# # b = 0
+# # a = a ^ b
+# # b = a ^ b
+# # b = a ^ b
+# # print(a, b)
+# # 1, 0
 
 
 
-# a = 1
-# b = 0
-# c = a & b     # True and False = False = 0
-# d = a | b     # | - or = True or False = True = 1
-# e = a ^ b     # 1 - True (Бит равен 1, если только один бит равен 1)
-# print(c + d + e)
-# A: 2
+# # a = 1
+# # b = 0
+# # c = a & b     # True and False = False = 0
+# # d = a | b     # | - or = True or False = True = 1
+# # e = a ^ b     # 1 - True (Бит равен 1, если только один бит равен 1)
+# # print(c + d + e)
+# # A: 2
 
 
 
 
-# x = float('23.42')
-# print(x)
-# print(bool(x) + True)
+# # x = float('23.42')
+# # print(x)
+# # print(bool(x) + True)
 
 
 
-# print('Mike' > 'MIke')      #True
-# Lowercase letters (a–z) have higher ASCII values than uppercase letters (A–Z)
-# Therefore, 'm' > 'M', 'z' > 'Z', 'a' > 'A', etc.
+# # print('Mike' > 'MIke')      #True
+# # Lowercase letters (a–z) have higher ASCII values than uppercase letters (A–Z)
+# # Therefore, 'm' > 'M', 'z' > 'Z', 'a' > 'A', etc.
 
 
 
-# print(2 ** 3 ** 2 ** 1)         # 2 ** 9 = 512, from right to the left
+# # print(2 ** 3 ** 2 ** 1)         # 2 ** 9 = 512, from right to the left
 
 
 
-# print('t' in 'Peter')
-# print('is' in 'This IS Python code.')
+# # print('t' in 'Peter')
+# # print('is' in 'This IS Python code.')
 
 
-# z = 2
-# y = 1
-# x = y < z or z > y and y > z or z < y
-# print(x)
-# A: True
+# # z = 2
+# # y = 1
+# # x = y < z or z > y and y > z or z < y
+# # print(x)
+# # A: True
 
 
-# ** - exponentiation
+# # ** - exponentiation
 
 
-# x = 0
-# y = 1
-# x = x ^ y
-# y = x ^ y
-# y = x ^ y
-# print(x, y)
-# A: 1 1
+# # x = 0
+# # y = 1
+# # x = x ^ y
+# # y = x ^ y
+# # y = x ^ y
+# # print(x, y)
+# # A: 1 1
 
 
 
-# x = True
-# y = False
-# z = False
+# # x = True
+# # y = False
+# # z = False
 
-# if x or y and z:
-#     print('TRUE')
-# else:
-#     print('FALSE')
+# # if x or y and z:
+# #     print('TRUE')
+# # else:
+# #     print('FALSE')
 
-# Оператор and выполняется раньше, чем or!
+# # Оператор and выполняется раньше, чем or!
 
 
 
 
 
 
-# Basics:
+# # Basics:
 
-#! - tell a Unix OS how to execute the contens of a Python file
+# #! - tell a Unix OS how to execute the contens of a Python file
 
-# 4 fundamental elements that make a language - Alphabet, lexis, syntax and semantics
+# # 4 fundamental elements that make a language - Alphabet, lexis, syntax and semantics
 
-# x = '\''              backslash \ doesn't count - it's an escape character
-# print(len(x))
-# A: 1
+# # x = '\''              backslash \ doesn't count - it's an escape character
+# # print(len(x))
+# # A: 1
 
 
 
-# 'True' , 'and' , 'in' - are illegal variable names
-# But 'TRUE' and 'true' are ok
+# # 'True' , 'and' , 'in' - are illegal variable names
+# # But 'TRUE' and 'true' are ok
 
 
-# CPython - is a default, reference implementation of the Python language, written in C
+# # CPython - is a default, reference implementation of the Python language, written in C
 
 
-# utf-8 - default value of encoding in the string function encode()
+# # utf-8 - default value of encoding in the string function encode()
 
 
-# machine code - a low level programming language consisting of binary digits/bit that the computer reads and understands
+# # machine code - a low level programming language consisting of binary digits/bit that the computer reads and understands
 
 
-# pyc file - contains compiled Python bytecode
+# # pyc file - contains compiled Python bytecode
 
 
-# True: (such keywords like: False, True. def, or, and, pass, return and etc.)
-# You cannot use keywords as variable names in Python
-# You cannot use keywords as function names in Python
+# # True: (such keywords like: False, True. def, or, and, pass, return and etc.)
+# # You cannot use keywords as variable names in Python
+# # You cannot use keywords as function names in Python
 
 
-# escape character owes its name to the fact that it - changes the meaning of the character next to it 
+# # escape character owes its name to the fact that it - changes the meaning of the character next to it 
 
 
-# Console - command-line intepreter which lets you interact with your OS and execute Python commands and scripts
+# # Console - command-line intepreter which lets you interact with your OS and execute Python commands and scripts
 
 
-# print('Andy\nBrown')
+# # print('Andy\nBrown')
 
 
-# print('Andy Brown', end=' ')
+# # print('Andy Brown', end=' ')
 
-# print('Andy Brown')
+# # print('Andy Brown')
 
-# Compilation:
-# Code converted directly into machine code executable by the Processor 
-# It tends to be faster than interpretation
+# # Compilation:
+# # Code converted directly into machine code executable by the Processor 
+# # It tends to be faster than interpretation
 
 
-# compiled - pyc
+# # compiled - pyc
 
 
-# index.py:
-# from sys import argv
-# print(argv[1] + argv[2])
-# python index.py 42 3
-# A: 423        # argv содержит только строки (str)
+# # index.py:
+# # from sys import argv
+# # print(argv[1] + argv[2])
+# # python index.py 42 3
+# # A: 423        # argv содержит только строки (str)
 
 
-# print() function can output values of - any number of arguments (including zero)
+# # print() function can output values of - any number of arguments (including zero)
 
 
 
-# x = '\\\'
-# print(len(x))
-# A: error 
+# # x = '\\\'
+# # print(len(x))
+# # A: error 
 
 
-# print() is a built-in function (means no need to import it)
+# # print() is a built-in function (means no need to import it)
 
 
-# IDLE - Integrated Development and Learning Environment for Python
+# # IDLE - Integrated Development and Learning Environment for Python
 
 
 
-# CPython - default implementation of the Python prog language
+# # CPython - default implementation of the Python prog language
 
 
-# A code point is - A number which makes up a character
+# # A code point is - A number which makes up a character
 
 
-# x = """
-# """
-# print(len(x))
-# A: 1
+# # x = """
+# # """
+# # print(len(x))
+# # A: 1
 
 
 
-# Source file - file containing written in a high-level programming language
+# # Source file - file containing written in a high-level programming language
 
 
-# num = 2 + 3 * 5
-# print(Num)
-# A: error 
+# # num = 2 + 3 * 5
+# # print(Num)
+# # A: error 
 
 
-# __pycache__ - folder created by Python used to store pyc files
+# # __pycache__ - folder created by Python used to store pyc files
 
 
 
 
 
 
-            # FUNCTIONS:
+#             # FUNCTIONS:
 
-# def func(data):
-#     for d in data[::2]:
-#         yield d
+# # def func(data):
+# #     for d in data[::2]:
+# #         yield d
 
-# for x in func('abcdef'):
-#     print(x, end='')          # end - prevents newlines
+# # for x in func('abcdef'):
+# #     print(x, end='')          # end - prevents newlines
 
-# A: ace 
+# # A: ace 
 
 
 
 
-# None - default return value for a function thst does not explicitly return any value 
+# # None - default return value for a function thst does not explicitly return any value 
 
 
-# def func(num):
-#     res = '*'
-#     for _ in range(num):
-#         res += res
-#     return res
+# # def func(num):
+# #     res = '*'
+# #     for _ in range(num):
+# #         res += res
+# #     return res
 
-# for x in func(2):
-#     print(x, end='')
+# # for x in func(2):
+# #     print(x, end='')
 
-# A: ****
+# # A: ****
 
 
 
-# Question #6
-# -----
+# # Question #6
+# # -----
 
 
 
 
-# a = [1, 2, 3]
-# a.append([4, 5])
-# print(len(a))
+# # a = [1, 2, 3]
+# # a.append([4, 5])
+# # print(len(a))
 
 
 
-# s = {1, 2, 3, 45}
-# print(len(s))
+# # s = {1, 2, 3, 45}
+# # print(len(s))
 
 
-# my_dict = {"a": 1, "b": 2}
-# print(my_dict.get("c"))
-# print(my_dict)
+# # my_dict = {"a": 1, "b": 2}
+# # print(my_dict.get("c"))
+# # print(my_dict)
 
-# import math
-# print(math.sqrt(16))
+# # import math
+# # print(math.sqrt(16))
 
 
-# x = 1
-# y = 2
-# z = 3
-# print(x, y, z, end='\n')
-# print(5//2)
+# # x = 1
+# # y = 2
+# # z = 3
+# # print(x, y, z, end='\n')
+# # print(5//2)
 
 
-# secret_number = 4
-# guess = int(input("Guess a number: "))
-# while guess != secret_number:
-#     guess = int(input("Guess a number: "))
-# else:
-#     print("Congrats, you found it")
+# # secret_number = 4
+# # guess = int(input("Guess a number: "))
+# # while guess != secret_number:
+# #     guess = int(input("Guess a number: "))
+# # else:
+# #     print("Congrats, you found it")
 
 
 
-# for i in range(12):
-#     if i == 2:
-#         continue
-#     print("i is: ", i)
+# # for i in range(12):
+# #     if i == 2:
+# #         continue
+# #     print("i is: ", i)
 
 
-# def input_number(num = 10):
-#     return int(input("Enter the number: ")) * num
+# # def input_number(num = 10):
+# #     return int(input("Enter the number: ")) * num
 
-# input_number()
-# # print(input1)
+# # input_number()
+# # # print(input1)
 
 
 
 
-# def myfunc():
-#         print(num + 1, end='')
+# # def myfunc():
+# #         print(num + 1, end='')
  
-# num = 5
-# myfunc()
-# print(num+13)
+# # num = 5
+# # myfunc()
+# # print(num+13)
 
 
 
-# list1 = [1, 2, 3]
-# list2 = list1[-3:-1]
-# print(list1)
-# print(list2)
-# In the end, list1 = [1, 2, 3] and list = [1. 2].
-# expression list1[-3:-1] means: start with the third element from the back (inclusive), which is 1. and take all elements until the last element (exclusive!)
-# не включает последний элемент -1
+# # list1 = [1, 2, 3]
+# # list2 = list1[-3:-1]
+# # print(list1)
+# # print(list2)
+# # In the end, list1 = [1, 2, 3] and list = [1. 2].
+# # expression list1[-3:-1] means: start with the third element from the back (inclusive), which is 1. and take all elements until the last element (exclusive!)
+# # не включает последний элемент -1
 
 
-# a = 0
-# while a <= 5:
-#         a += 2
-#         print('@')
+# # a = 0
+# # while a <= 5:
+# #         a += 2
+# #         print('@')
 
-# @
-# @
-# @
+# # @
+# # @
+# # @
 
 
 
-# def myfun(x):
-#         if x == 0:
-#                 return 1
-#         return x + myfun(x-1)
+# # def myfun(x):
+# #         if x == 0:
+# #                 return 1
+# #         return x + myfun(x-1)
   
-# print(myfun(5))
+# # print(myfun(5))
 
-# # This is a classic recursive function. To find the result, I'll trace through the execution:
-# myfun(5) is called
-# Since 5 ≠ 0, it returns 5 + myfun(4)
-# But we need to calculate myfun(4) first
-# myfun(4) is called
-# Since 4 ≠ 0, it returns 4 + myfun(3)
-# But we need to calculate myfun(3) first
-# myfun(3) is called
-# Since 3 ≠ 0, it returns 3 + myfun(2)
-# But we need to calculate myfun(2) first
-# myfun(2) is called
-# Since 2 ≠ 0, it returns 2 + myfun(1)
-# But we need to calculate myfun(1) first
-# myfun(1) is called
-# Since 1 ≠ 0, it returns 1 + myfun(0)
-# But we need to calculate myfun(0) first
-# myfun(0) is called
-# Since x == 0, it returns 1 (base case reached)
-# Now we can go back up:
-# myfun(1) = 1 + myfun(0) = 1 + 1 = 2
-# myfun(2) = 2 + myfun(1) = 2 + 2 = 4
-# myfun(3) = 3 + myfun(2) = 3 + 4 = 7
-# myfun(4) = 4 + myfun(3) = 4 + 7 = 11
-# myfun(5) = 5 + myfun(4) = 5 + 11 = 16
+# # # This is a classic recursive function. To find the result, I'll trace through the execution:
+# # myfun(5) is called
+# # Since 5 ≠ 0, it returns 5 + myfun(4)
+# # But we need to calculate myfun(4) first
+# # myfun(4) is called
+# # Since 4 ≠ 0, it returns 4 + myfun(3)
+# # But we need to calculate myfun(3) first
+# # myfun(3) is called
+# # Since 3 ≠ 0, it returns 3 + myfun(2)
+# # But we need to calculate myfun(2) first
+# # myfun(2) is called
+# # Since 2 ≠ 0, it returns 2 + myfun(1)
+# # But we need to calculate myfun(1) first
+# # myfun(1) is called
+# # Since 1 ≠ 0, it returns 1 + myfun(0)
+# # But we need to calculate myfun(0) first
+# # myfun(0) is called
+# # Since x == 0, it returns 1 (base case reached)
+# # Now we can go back up:
+# # myfun(1) = 1 + myfun(0) = 1 + 1 = 2
+# # myfun(2) = 2 + myfun(1) = 2 + 2 = 4
+# # myfun(3) = 3 + myfun(2) = 3 + 4 = 7
+# # myfun(4) = 4 + myfun(3) = 4 + 7 = 11
+# # myfun(5) = 5 + myfun(4) = 5 + 11 = 16
 
-# Therefore, print(myfun(5)) outputs 16.
+# # Therefore, print(myfun(5)) outputs 16.
 
 
 
 
-# x = [
-#     'a',
-#     'b',
-#     {
-#         'one': 1,
-#         'two':
-#         {
-#             'x' : 10,
-#             'y' : 20,
-#             'z' : 30
-#         },
-#         'three': 3
-#     },
-#     'c',
-#     'd'
-# ]
-# print(30 in x[2])
+# # x = [
+# #     'a',
+# #     'b',
+# #     {
+# #         'one': 1,
+# #         'two':
+# #         {
+# #             'x' : 10,
+# #             'y' : 20,
+# #             'z' : 30
+# #         },
+# #         'three': 3
+# #     },
+# #     'c',
+# #     'd'
+# # ]
+# # print(30 in x[2])
 
-# False
+# # False
 
 
 
 
-# tup_a = (0, 1, 2)
-# tup_b = (2, 3, 4)
-# list_c = []
-# for el in tup_a:
-#         if el not in tup_b:
-#                 list_c.append(el)
-# print(list_c)
+# # tup_a = (0, 1, 2)
+# # tup_b = (2, 3, 4)
+# # list_c = []
+# # for el in tup_a:
+# #         if el not in tup_b:
+# #                 list_c.append(el)
+# # print(list_c)
 
-# [0, 1]
+# # [0, 1]
 
 
 
-# print(1 | 0 ^ 1 & ~0)
-# 1
+# # print(1 | 0 ^ 1 & ~0)
+# # 1
 
 
 
-# i = 1
-# while i < 2:
-#     i += 2
-#     print ("*",end="")
-# else:
-#    print("*")
+# # i = 1
+# # while i < 2:
+# #     i += 2
+# #     print ("*",end="")
+# # else:
+# #    print("*")
 
-#  **
+# #  **
 
 
 
 
 
-# k = 1
-# for i in range(1,2):
-#     for j in range(-1,2):
-#              if i ==j:
-#                    k +=1
-#              else:
-#                    break
-# print(k)
+# # k = 1
+# # for i in range(1,2):
+# #     for j in range(-1,2):
+# #              if i ==j:
+# #                    k +=1
+# #              else:
+# #                    break
+# # print(k)
 
-# A: 1 (break in "else" part - stops all iterations on the first step, so its nothing, k still stands = 1)
+# # A: 1 (break in "else" part - stops all iterations on the first step, so its nothing, k still stands = 1)
 
 
 
 
-# j = 1
-# for i in range(-1, 1):
-#     if 3 * i < 6:
-#         j += 2
-# else:
-#     j += 3
-# print(j)
+# # j = 1
+# # for i in range(-1, 1):
+# #     if 3 * i < 6:
+# #         j += 2
+# # else:
+# #     j += 3
+# # print(j)
 
-# A: 8
+# # A: 8
 
 
 
-# names = (True, False, True, False)
-# newnames = names[2:]
-# i = 0
-# for name in newnames[-1:]:
-#     if name:
-#         i+=1
-# print(i)
-# A: 0
+# # names = (True, False, True, False)
+# # newnames = names[2:]
+# # i = 0
+# # for name in newnames[-1:]:
+# #     if name:
+# #         i+=1
+# # print(i)
+# # A: 0
 
-# names is a tuple containing Boolean values: (True, False, True, False).
-# newnames is created by slicing names from the third element onwards, so it becomes (True, False).
-# The variable i is initialized to 0.
-# The code then iterates over the last element of newnames (which is False), but the loop only runs if the value is True.
-# Since the last element is False, the loop does not run, and i remains 0.
+# # names is a tuple containing Boolean values: (True, False, True, False).
+# # newnames is created by slicing names from the third element onwards, so it becomes (True, False).
+# # The variable i is initialized to 0.
+# # The code then iterates over the last element of newnames (which is False), but the loop only runs if the value is True.
+# # Since the last element is False, the loop does not run, and i remains 0.
 
 
 
 
-# List1 = [10,20,30,40,50]
-# print(List1[::])
-# print(List1[-1:-1:-1])
-# print(List1[::1])
-# print(List1[::-1])
+# # List1 = [10,20,30,40,50]
+# # print(List1[::])
+# # print(List1[-1:-1:-1])
+# # print(List1[::1])
+# # print(List1[::-1])
 
 
-# List1 = [2,4,8,5,6,1]
-# # List1.sort()
-# a = sorted(List1,reverse=True)
-# print(a)
+# # List1 = [2,4,8,5,6,1]
+# # # List1.sort()
+# # a = sorted(List1,reverse=True)
+# # print(a)
 
 
 
-# i = 1
-# while i < 3:
-#        print(i) 
+# # i = 1
+# # while i < 3:
+# #        print(i) 
 
 
 
-# message = "She said, \"Python is fun!\""
-# print(message)
+# # message = "She said, \"Python is fun!\""
+# # print(message)
 
-# It escapes the double quotes, allowing them to be included in the string.
+# # It escapes the double quotes, allowing them to be included in the string.
 
 
 
-# nested_data = ((1, 2), [3, 4], (5, [6, 7]))
-# print(nested_data[2][1])
-# A: [6, 7], length - 2 (elements inside)
+# # nested_data = ((1, 2), [3, 4], (5, [6, 7]))
+# # print(nested_data[2][1])
+# # A: [6, 7], length - 2 (elements inside)
 
 
 
-# List1 = [1,2,3,4,5]
-# print(List1.index(List1[-1]) == 4)
-# print(len(List1[0:1]))
-# print(List1.index(List1[-1]))
+# # List1 = [1,2,3,4,5]
+# # print(List1.index(List1[-1]) == 4)
+# # print(len(List1[0:1]))
+# # print(List1.index(List1[-1]))
 
 
 
-# def myFun(arg1, arg2, arg3):
-#     print("arg1:", arg1)
-#     print("arg2:", arg2)
-#     print("arg3:", arg3)
+# # def myFun(arg1, arg2, arg3):
+# #     print("arg1:", arg1)
+# #     print("arg2:", arg2)
+# #     print("arg3:", arg3)
 
-# args = ("Geeks", "for", "Geek")
-# myFun(*args)
+# # args = ("Geeks", "for", "Geek")
+# # myFun(*args)
 
 
-# def func(a, b, c):
-#     print(a, b, c)
+# # def func(a, b, c):
+# #     print(a, b, c)
 
-# args = (1, 2, 3)
-# func(*args)
+# # args = (1, 2, 3)
+# # func(*args)
 
-# kwargs = {'a': 1, 'b': 2, 'c': 3}
-# func(**kwargs)
+# # kwargs = {'a': 1, 'b': 2, 'c': 3}
+# # func(**kwargs)
 
 
 
-# for i in range(1,10,2):
-#     print(i)
+# # for i in range(1,10,2):
+# #     print(i)
 
 
-# values = []
-# for i in range(1,4):
-#     values.append(i)
-#     print(values)
+# # values = []
+# # for i in range(1,4):
+# #     values.append(i)
+# #     print(values)
 
 
 
-# L = [1, 2, 3, 4, 5]
-# L1 = L
-# L.append(7)
-# del L
-# print(L1)
+# # L = [1, 2, 3, 4, 5]
+# # L1 = L
+# # L.append(7)
+# # del L
+# # print(L1)
 
 
 
+# # a = 4 // 8
+# # print(a)
+
+
+
+# # height = -84 // 2
+# # print(height)
+
+# # total = 0
+# # for i in range(4):
+# #     if 2 * i > 4:
+# #         total += 1
+# # else:
+# #     total += 1
+# # print(total)
+
+
+
+# # equals = 0
+# # for i in range(2):
+# #     for j in range(2):
+# #         if i == j:
+# #             equals += 1
+# #     else:
+# #         equals += 1
+# # print(equals)
+
+
+
+# # rates = (1.2, 1.4, 1.0)
+# # new = rates[:]
+# # for rate in rates[-2:]:
+# #     new += (rate,)
+# # print(len(new))
+
+
+# # def traverse(stop):
+# #     if stop == 0:
+# #         return 0
+# #     else:
+# #         return stop * traverse(stop - 1)
+# # print(traverse(2))
+
+
+
+
+# # floor = 1
+# # while floor <= 10:
+# #     floor += floor
+# #     print("#", end="")
+# # else:
+# #     print("#")
+
+
+
+# # a = 2
+# # a //= 4
+# # print(a)
+
+
+
+
+# # coll = []
+# # coll.append(1)
+# # coll.insert(0,2)
+# # dupl = coll[:]
+# # dupl.append(3)
+# # print(len(coll) + len(dupl))
+
+# # print(coll)
+# # print(dupl)
+
+
+
+# # the_list = [True, 3.1415, -1]
+
+# # print(the_list.index(-1))
+# # print(True in the_list)
+# # print(len(the_list) == 3)
+
+
+# # menu = {"abc": 1.2, "zcc": 1.3, "qwe": 1.4}
+# # for value in menu.items():
+# #     print(value[1], end="")
+
+
+# # lis = [1, 2, 3, 4]
+
+# # print(lis[4])
+
+
+
+# # list = ["1", 1, 1.]
+
+# # print(list.index('1'))
+# # print(1.1 in list[1:3])
+# # print(len(list[0:2])<3)
+
+
+# # prices = {"pizza": 2.99}
+# # try:
+# #     charge = prices("calzone")
+# #     print("Charged")
+# # except KeyError:
+# #     print("unavailanble")
+# # except:
+# #     print("Out of bbonds")
+
+
+# # def do_the(parameter):
+# #     variable += parameter[0]
+# #     return variable
+
+# # the_list = [x for x in range(2,3)]
+# # variable = -1
+# # do_the(the_list)
+# # print(variable)
+
+
+# # def runner(brand, model="", year=2021, convertible=False):
+# #     return (brand, str(year), str(convertible))
+
+# # print(runner("Fermi") [2] [2])
+
+
+# def veolicity(x):
+#     return speed + x
+
+# speed = 10
+# newspeed = veolicity(10)
+# newspeed = veolicity(speed)
+# print(newspeed)
 
 
