@@ -548,4 +548,146 @@
 
 
 
-print(1 | 0 ^ 1 & ~0)
+# print(1 | 0 ^ 1 & ~0)
+# 1
+
+
+
+# i = 1
+# while i < 2:
+#     i += 2
+#     print ("*",end="")
+# else:
+#    print("*")
+
+#  **
+
+
+
+
+
+# k = 1
+# for i in range(1,2):
+#     for j in range(-1,2):
+#              if i ==j:
+#                    k +=1
+#              else:
+#                    break
+# print(k)
+
+# A: 1 (break in "else" part - stops all iterations on the first step, so its nothing, k still stands = 1)
+
+
+
+
+# j = 1
+# for i in range(-1, 1):
+#     if 3 * i < 6:
+#         j += 2
+# else:
+#     j += 3
+# print(j)
+
+# A: 8
+
+
+
+# names = (True, False, True, False)
+# newnames = names[2:]
+# i = 0
+# for name in newnames[-1:]:
+#     if name:
+#         i+=1
+# print(i)
+# A: 0
+
+# names is a tuple containing Boolean values: (True, False, True, False).
+# newnames is created by slicing names from the third element onwards, so it becomes (True, False).
+# The variable i is initialized to 0.
+# The code then iterates over the last element of newnames (which is False), but the loop only runs if the value is True.
+# Since the last element is False, the loop does not run, and i remains 0.
+
+
+
+
+# List1 = [10,20,30,40,50]
+# print(List1[::])
+# print(List1[-1:-1:-1])
+# print(List1[::1])
+# print(List1[::-1])
+
+
+# List1 = [2,4,8,5,6,1]
+# # List1.sort()
+# a = sorted(List1,reverse=True)
+# print(a)
+
+
+
+# i = 1
+# while i < 3:
+#        print(i) 
+
+
+
+# message = "She said, \"Python is fun!\""
+# print(message)
+
+# It escapes the double quotes, allowing them to be included in the string.
+
+
+
+# nested_data = ((1, 2), [3, 4], (5, [6, 7]))
+# print(nested_data[2][1])
+# A: [6, 7], length - 2 (elements inside)
+
+
+
+# List1 = [1,2,3,4,5]
+# print(List1.index(List1[-1]) == 4)
+# print(len(List1[0:1]))
+# print(List1.index(List1[-1]))
+
+
+
+# def myFun(arg1, arg2, arg3):
+#     print("arg1:", arg1)
+#     print("arg2:", arg2)
+#     print("arg3:", arg3)
+
+# args = ("Geeks", "for", "Geek")
+# myFun(*args)
+
+
+# def func(a, b, c):
+#     print(a, b, c)
+
+# args = (1, 2, 3)
+# func(*args)
+
+# kwargs = {'a': 1, 'b': 2, 'c': 3}
+# func(**kwargs)
+
+
+
+# for i in range(1,10,2):
+#     print(i)
+
+
+# values = []
+# for i in range(1,4):
+#     values.append(i)
+#     print(values)
+
+
+
+# L = [1, 2, 3, 4, 5]
+# L1 = L
+# L.append(7)
+# del L
+# print(L1)
+
+
+
+
+
