@@ -1,6 +1,9 @@
 # Plotly Express lib helps creating interactive charts, incl choropleth maps
 # A choropleth map is a type of thematic map where geographic areas (like countries..) are colored or shaded according to statistical data values.
 import plotly.express as px
+import numpy as np
+import pandas as pd
+
 
 
 country = input("Enter the country name: ")
@@ -30,5 +33,7 @@ except Exception as err:
 
 
 # Output: Country which we entered at the beginning, will be highlighted with the color (value 100)
+
+
 
 
