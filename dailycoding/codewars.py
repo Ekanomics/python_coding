@@ -55,22 +55,112 @@
 
 # Examples(Operator, value1, value2) --> output
 
-def function(arg, value1, value2):
-  if arg == '+':
-    return value1 + value2
-  elif arg == '-':
-    return value1 - value2
-  elif arg == '*':
-    return value1 * value2
-  elif arg == '/':
-    return value1 / value2
-  else:
-    raise ValueError("Invalid argument operation")
+# def function(arg, value1, value2):
+#   if arg == '+':
+#     return value1 + value2
+#   elif arg == '-':
+#     return value1 - value2
+#   elif arg == '*':
+#     return value1 * value2
+#   elif arg == '/':
+#     return value1 / value2
+#   else:
+#     raise ValueError("Invalid argument operation")
   
-print(function('+', 2, 3))
-print(function('-', 2, 3))
-print(function('*', 2, 3))
-print(function('/', 2, 3))
+# print(function('+', 2, 3))
+# print(function('-', 2, 3))
+# print(function('*', 2, 3))
+# print(function('/', 2, 3))
+
+
+# _____________________________________________
+# Task 4):
+# Given an array of integers.
+# Return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers. 0 is neither positive nor negative.
+# If the input is an empty array or is null, return an empty array.
+# Example
+# For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].
+
+
+# Solution:
+# def count_positives_sum_negatives(arr):
+#     if not arr:                                 # returns empty list [], if not arr, which evaluates to True
+#         return []
+    
+#     positive = sum(1 for x in arr if x > 0)
+#     negative = sum(x for x in arr if x < 0)
+
+#     # return [max(arr), min(arr)]
+#     return [positive, negative]
+
+# print(count_positives_sum_negatives([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]))
 
 
 
+# _____________________________________________
+# Task 5)
+# # Write a function which calculates the average of the numbers in a given array.
+# Note: Empty arrays should return 0.
+
+
+# Solution:
+# def find_average(numbers):
+#     if not numbers:
+#         return 0
+#     count_numbers = sum(1 for x in numbers)
+#     sum_of_numbers = sum(x for x in numbers)
+#     avg = sum_of_numbers / count_numbers
+#     return avg
+
+# print(find_average([1, 2, 3]))
+
+# More simple code for this task:
+# def find_average(numbers)
+#     return sum(array) / len(array) if array else 0
+
+
+
+# ____________________________________________
+# Task 6)
+# Rock Paper Scissors
+# Let's play! You have to return which player won! In case of a draw return Draw!.
+
+# Examples(Input1, Input2 --> Output):
+
+# "scissors", "paper" --> "Player 1 won!"
+# "scissors", "rock" --> "Player 2 won!"
+# "paper", "paper" --> "Draw!"
+
+
+# Solution:
+# def rps(p1, p2):
+#     if p1 == "scissors" and p2 == "paper":
+#         return "Player 1 won!"
+#     elif p1 == "scissors" and p2 == "rock":
+#         return "Player 2 won!"
+#     elif p1 == "paper" and p2 == "rock":
+#         return "Player 1 won!"
+#     elif p1 == "paper" and p2 == "scissors":
+#         return "Player 2 won!"
+#     elif p1 == "rock" and p2 == "paper":
+#         return "Player 2 won!"
+#     elif p1 == "rock" and p2 == "scissors":
+#         return "Player 1 won!"
+#     else:
+#         return "Draw!"
+# print(rps("scissors", "rock"))
+
+
+# Other shorter solution
+# def rps(p1, p2):
+#     if p1 == p2:
+#         return 'Draw!'
+#     elif (p1 == 'rock' and p2 == 'scissors') or (p1 == 'scissors' and p2 == 'paper') or (p1 == 'paper' and p2 == 'rock'):
+#         return 'Player 1 won!'
+#     else:
+#         return 'Player 2 won!'
+
+
+
+# ______________________________________________
+# Task 7)
