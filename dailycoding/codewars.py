@@ -172,18 +172,103 @@
 
 
 # Solution:
-def bmi(weight, height):
-    x = (weight) / (height ** 2)
-    if x <= 18.5:
-        return "Underweight"
-    elif x <= 25.0:
-        return "Normal"
-    elif x <= 30.0:
-        return "Overweight"
-    else:
-        return "Obese"
+# def bmi(weight, height):
+#     x = weight / (height ** 2)
+#     if x <= 18.5:
+#         return "Underweight"
+#     elif x <= 25.0:
+#         return "Normal"
+#     elif x <= 30.0:
+#         return "Overweight"
+#     else:
+#         return "Obese"
 
-print(bmi(77, 1.72))
+# weight = float(input("Your weight in kg: "))
+# height = float(input("You height in meters: "))
+
+# print(bmi(weight, height))
 
 # test  = (77 / (172*172)) * 10000
 # print(test)
+
+
+
+# _____________________________________
+# Task 8)
+# A hero is on his way to the castle to complete his mission. However, he's been told that the castle is 
+# surrounded with a couple of powerful dragons! each dragon takes 2 bullets to be defeated, our hero has no idea how many 
+# bullets he should carry.. Assuming he's gonna grab a specific given number of bullets and move forward to fight another 
+# specific given number of dragons, will he survive?
+
+# Return true if yes, false otherwise :)
+
+
+# Solution:
+# def hero(bullets, dragons):
+#     if bullets % dragons >= 0 and bullets >= dragons * 2 and dragons != 0:
+#         return True  #"Castle is yours"
+#     else:
+#         return False #"You shall not pass"
+    
+# print(hero(61, 30))
+
+
+
+
+# _________________________________________
+# Task 9)
+# Build a function that returns an array of integers from n to 1 where n>0.
+
+# Example : n=5 --> [5,4,3,2,1]
+
+
+# Solution:
+# def reverse_seq(n):
+#     if n > 1:
+#         return list(range(n, 0, -1))
+
+# print(reverse_seq(7))
+
+# REMEMBER: range(start, stop, step)
+# stop is exclusive, means stops before this value
+
+
+
+
+# ________________________________________
+# Task 10)
+# Create a function which answers the question "Are you playing banjo?".
+# If your name starts with the letter "R" or lower case "r", you are playing banjo!
+
+# The function takes a name as its only argument, and returns one of the following strings:
+
+# name + " plays banjo" 
+# name + " does not play banjo"
+
+# Names given are always valid strings.
+
+
+# Solution:
+# 1)
+# def are_you_playing_banjo(name):
+#     if isinstance(name, str) and name.startswith(('R', 'r')):
+#         return name + " plays banjo"
+#     else:
+#         return name + " does not play banjo"
+
+# print(are_you_playing_banjo("Robocop"))
+
+# 2)
+# def are_you_playing_banjo(name):
+#     if name[0].lower() == 'r':
+#         return name + ' plays banjo'
+#     else:
+#         return name + ' does not play banjo'
+    
+# print(are_you_playing_banjo("amazon"))
+
+
+
+
+# _______________________________________________
+# Task 11)
