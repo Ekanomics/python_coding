@@ -272,3 +272,66 @@
 
 # _______________________________________________
 # Task 11)
+# Create a function with two arguments that will return an array of the first n multiples of x.
+
+# Assume both the given number and the number of times to count will be positive numbers greater than 0.
+
+# Return the results as an array or list ( depending on language ).
+
+# Examples
+# x = 1, n = 10 --> [1,2,3,4,5,6,7,8,9,10]
+# x = 2, n = 5  --> [2,4,6,8,10]
+
+
+# Solution(1):
+# def count_by(x, n):
+#     if x > 0 and n > 0:
+#         return list(range(x, (x*n)+x, x))
+#     else:
+#         return "Number is not positive"
+    
+# print(count_by(-1, 10))
+
+# Solution(2):
+# def count_by(x, n):
+#     return [i * x for i in range(1, n + 1)]
+
+# print(count_by(1, 10))
+
+
+
+
+# ____________________________________________________
+# # Task 12)
+# Deoxyribonucleic acid, DNA is the primary information storage molecule in biological systems. 
+# It is composed of four nucleic acid bases Guanine ('G'), Cytosine ('C'), Adenine ('A'), and Thymine ('T').
+
+# Ribonucleic acid, RNA, is the primary messenger molecule in cells. RNA differs slightly from DNA its chemical 
+# structure and contains no Thymine. In RNA Thymine is replaced by another nucleic acid Uracil ('U').
+
+# Create a function which translates a given DNA string into RNA.
+
+# For example:
+# "GCAT"  =>  "GCAU"
+# The input string can be of arbitrary length - in particular, it may be empty. All input is guaranteed to be valid, i.e. 
+# each input string will only ever consist of 'G', 'C', 'A' and/or 'T'.
+
+# arbitrary - произвольный
+
+
+# Solution:
+# def dna_to_rna(dna):
+#     if isinstance(dna, list):             # isinstance() - checks type of dna; and if dna is a list then it's TRUE
+#         dna = ''.join(dna)                # This line is executed if dna is a list. ''.join(dna) - takes a list and joins them into a single string
+#     if not dna:                           # Here we check if dna is empty. empty "" or [] == FALSE, so not dna = TRUE
+#         return "GCAU"
+#     return dna.replace('T', 'U')
+
+# print(dna_to_rna([]))
+
+
+
+# OLD   # if dna == ['G', 'C', 'A'] or dna == ['G', 'C', 'A', 'T'] or dna == []:
+        #     return dna.replace('T', 'U') or ["GCA"] or ["GCAU"]
+
+
