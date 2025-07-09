@@ -366,3 +366,42 @@
 # print(is_square(4))
 
 
+# ____________________________________________________
+# Task 14)
+# Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the "instructions" for the development and functioning of living organisms.
+
+# If you want to know more: http://en.wikipedia.org/wiki/DNA
+
+# In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G". Your function receives one side of the DNA (string, except for Haskell); you need to return the other complementary side. DNA strand is never empty or there is no DNA at all (again, except for Haskell).
+
+# More similar exercise are found here: http://rosalind.info/problems/list-view/ (source)
+
+# Example: (input --> output)
+
+# "ATTGC" --> "TAACG"
+# "GTAT" --> "CATA"
+
+
+# Solution:
+# def DNA_strand(dna):
+#         complement = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C'}
+#         return ''.join(complement[i] for i in dna)
+
+# print(DNA_strand("ATCGT"))
+
+
+
+# _________________________________________
+# Task 15)
+# Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+
+# Solution:
+# def even_or_odd(number):
+#     if number % 2 == 0:
+#         return "Even"
+#     else:
+#         return "Odd"
+
+
+
+# _________________________________________
