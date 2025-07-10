@@ -405,3 +405,34 @@
 
 
 # _________________________________________
+# Task 16)
+# The Western Suburbs Croquet Club has two categories of membership, Senior and Open. They would like your help with an application form that will tell prospective members which category they will be placed.
+
+# To be a senior, a member must be at least 55 years old and have a handicap greater than 7. In this croquet club, handicaps range from -2 to +26; the better the player the lower the handicap.
+
+# Input
+# Input will consist of a list of pairs. Each pair contains information for a single potential member. Information consists of an integer for the person's age and an integer for the person's handicap.
+
+# Output
+# Output will consist of a list of string values (in Haskell and C: Open or Senior) stating whether the respective member is to be placed in the senior or open category.
+
+# Example
+# input =  [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]
+# output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
+
+# Solution:
+# def open_or_senior(data):
+#     result = []
+#     for a, b in data:                                         # for loop iteration over each pair(a & b) in data
+#         if a  >= 55 and b > 7:
+#              result.append('Senior')                          # if the "if" condition is true - adds 'Senior' to result
+#         else:
+#              result.append('Open')
+#     return result
+    
+# print(open_or_senior([[5, 3], [56, 8]]))
+
+
+
+# _____________________________________________
+# Task 17)
