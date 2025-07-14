@@ -436,3 +436,34 @@
 
 # _____________________________________________
 # Task 17)
+# Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).
+
+# Examples:
+
+# solution('abc', 'bc') # returns true
+# solution('abc', 'd') # returns false
+
+
+# Solution:
+# def solution(text, ending):
+#         return text.endswith(ending)
+
+
+# print(solution('salam', 'alam'))
+
+                # Python's built-in str.endswith() method, which directly checks if a string ends with a given suffix.
+
+
+
+# _____________________________________________
+# Task 18)
+# Code as fast as you can. Double the integer 
+# def double_integer(i):
+#     return i*2
+
+# print(double_integer(5))
+
+
+
+# _____________________________________________
+# Task 19)
